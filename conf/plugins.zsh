@@ -1,0 +1,14 @@
+plugins=(
+  archlinux
+  docker
+  docker-compose
+  git
+  golang
+  history
+  perms
+  sudo
+  systemadmin
+  systemd
+  zsh-completions
+  zsh-syntax-highlighting
+)
