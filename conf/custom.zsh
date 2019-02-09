@@ -1,11 +1,12 @@
 # Aliases
 alias dc="docker-compose"
+alias node0="ssh root@104.248.138.85"
+alias node1="ssh root@104.248.240.59"
+alias node3="ssh root@104.248.35.86"
+alias vtop="vtop --theme brew"
 
 # Check if running in TTY
 case $(tty) in
-	/dev/tty1)
-		startx; # Start X server automatically if tty1
-	;;
 	/dev/tty[2-9])
 		export TERM="xterm";
 		ZSH_THEME="dpoggi"; source $ZSHCONF/resources/dpoggi-timestamp.zsh-theme;
